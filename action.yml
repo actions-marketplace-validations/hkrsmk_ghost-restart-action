@@ -1,4 +1,5 @@
 name: ghost_restart
+description: 'A short script using appleboy''s SSH to restart Ghost apps (ghost.org).'
 
 on:
   push:
