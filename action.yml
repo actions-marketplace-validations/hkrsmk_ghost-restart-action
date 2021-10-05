@@ -24,7 +24,7 @@ jobs:
         password: ${{ secrets.SUDO_PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd ${{ secrets.PATH_TO_GHOST }}/..
+          cd ${{ secrets.PATH_TO_GITHUB_REPO }}
           echo ${{ secrets.SUDO_PASSWORD }} | ${{ secrets.GIT_PULL_SCRIPT }}
           
     - name: ssh and restart
