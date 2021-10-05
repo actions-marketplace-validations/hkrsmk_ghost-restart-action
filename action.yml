@@ -1,4 +1,4 @@
-name: ghost_restart
+name: 'Ghost Restart'
 description: 'A short script using appleboy''s SSH to restart Ghost apps (ghost.org).'
 branding:
   icon: refresh-cw
