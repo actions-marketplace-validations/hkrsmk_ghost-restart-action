@@ -1,8 +1,6 @@
 # Ghost Restart
 A short script to restart ghost whenever updates are pushed to the main branch of your github repo for [Ghost](https://github.com/TryGhost/Ghost).
 
-## ghost_restart
-
 Restarts ghost using [appleboy's ssh action](https://github.com/appleboy/ssh-action).
 
 To use this action, please copy and paste the action.yml file into your own workflows folder, and insert your secrets accordingly.
